@@ -20,24 +20,27 @@
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
+/* blog post on homepage */
+.recent-posts {
+	overflow: hidden;
+}
 .blog-post {
-	width: 50%;
+	width: 44.75%;
+	padding-right: 50px;
+	float: left;
 }
 .blog-post h4 {
-	font-size: 16px;
-	font-family: 'Montserrat';
+	font: 16px 'Montserrat';
 	color: #a6a6a6;
 	text-transform: uppercase;
+	margin-top: 0;
 }
 .blog-post h2 {
-	font-size: 24px;
-	font-family: 'Montserrat';
-	font-weight: bold;
+	font: 700 24px 'Montserrat';
+	margin: 36px 0;
 }
 .blog-post .read-more-link {
-	font-size: 24px;
-	font-family: 'Montserrat';
-	font-weight: bold;
+	font: 700 15px 'Montserrat';
 	color: #45ac9d;
 	text-transform: uppercase;
 }
